@@ -7,6 +7,7 @@ Minor Project on Python
 
 This Python project is a simple yet secure file encryption and decryption tool that uses the Fernet symmetric encryption from the cryptography library. It enables users to protect sensitive files by encrypting them, and later decrypt them using a secure key.
 
+
 📄 Project Overview
 
 This tool works on plain text files and transforms them into unreadable encrypted formats using a generated key. It supports two main operations:
@@ -14,6 +15,7 @@ This tool works on plain text files and transforms them into unreadable encrypte
 Encryption: Takes an input file and encrypts its content.
 
 Decryption: Takes an encrypted file and restores it to its original content, given the correct key.
+
 
 📁 File Flow
 
@@ -28,6 +30,7 @@ test(2).txt	🔓 Decrypted file – the final output that matches the original c
 Secret.key	🔑 Auto-generated key used for both encryption and decryption.
 
 
+
 💡 Features
 
 🔐 Encrypt and decrypt any file using symmetric key encryption
@@ -39,6 +42,7 @@ Secret.key	🔑 Auto-generated key used for both encryption and decryption.
 🔒 Uses Fernet from the cryptography library for strong encryption
 
 ⚠️ Built-in validation for file existence and key matching
+
 
 🚀 How to Use
 
@@ -57,11 +61,13 @@ Press E to encrypt a file.
 
 Press D to decrypt a previously encrypted file.
 
+
 ✅ Check output files:
 
 After encryption: your file (e.g., test.txt) will be encrypted.
 
 After decryption: the file will be restored to its original state.
+
 
 📌 Example Execution
 
@@ -72,6 +78,7 @@ Enter 'E' to encrypt or 'D' decrypt the file. e
 Enter the file name to encrypt (including file extension): test.txt
 
 File Encrypted Successfully!!!
+
 
 🔓 Decrypting a File:
 
@@ -89,6 +96,7 @@ cryptography library
 
 File Handling (os, open, read, write)
 
+
 ⚠️ Security Note
 
 The Secret.key file is essential to decrypt the file. Losing it will make decryption impossible.
@@ -100,7 +108,10 @@ For production use, ensure proper key management and secure storage.
 
 
 🙋‍♀️ Author
+
 Yashaswini S
+
 B.Tech Artificial Intelligence and Machine Learning
+
 M S Engineering College
 
